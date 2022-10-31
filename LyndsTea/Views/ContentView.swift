@@ -28,6 +28,11 @@ struct ContentView: View {
                     Image("bowl")
                     Text("Ingredients")
                 }
+            MyStoryView()
+                .tabItem {
+                    Image("about")
+                    Text("My Story")
+                }
         }
     }
 }

@@ -14,6 +14,7 @@
 		4D50D9132910654800C186FB /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D50D9122910654800C186FB /* HomeView.swift */; };
 		4D50D915291069F600C186FB /* CommunityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D50D914291069F600C186FB /* CommunityView.swift */; };
 		4D50D91729106B8D00C186FB /* IngredientsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D50D91629106B8D00C186FB /* IngredientsView.swift */; };
+		4D50D91929106D8800C186FB /* MyStoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D50D91829106D8800C186FB /* MyStoryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		4D50D9122910654800C186FB /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		4D50D914291069F600C186FB /* CommunityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityView.swift; sourceTree = "<group>"; };
 		4D50D91629106B8D00C186FB /* IngredientsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientsView.swift; sourceTree = "<group>"; };
+		4D50D91829106D8800C186FB /* MyStoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyStoryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				4D50D9122910654800C186FB /* HomeView.swift */,
 				4D50D914291069F600C186FB /* CommunityView.swift */,
 				4D50D91629106B8D00C186FB /* IngredientsView.swift */,
+				4D50D91829106D8800C186FB /* MyStoryView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -154,6 +157,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D50D91929106D8800C186FB /* MyStoryView.swift in Sources */,
 				4D50D9132910654800C186FB /* HomeView.swift in Sources */,
 				4D50D91729106B8D00C186FB /* IngredientsView.swift in Sources */,
 				4D50D906290FFCE100C186FB /* ContentView.swift in Sources */,
