@@ -11,6 +11,7 @@
 		4D50D906290FFCE100C186FB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D50D905290FFCE100C186FB /* ContentView.swift */; };
 		4D50D908290FFCE300C186FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D50D907290FFCE300C186FB /* Assets.xcassets */; };
 		4D50D90B290FFCE300C186FB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D50D90A290FFCE300C186FB /* Preview Assets.xcassets */; };
+		4D50D9132910654800C186FB /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D50D9122910654800C186FB /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		4D50D905290FFCE100C186FB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4D50D907290FFCE300C186FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D50D90A290FFCE300C186FB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4D50D9122910654800C186FB /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +53,8 @@
 		4D50D902290FFCE100C186FB /* LyndsTea */ = {
 			isa = PBXGroup;
 			children = (
+				4D50D9112910651F00C186FB /* Views */,
 				4D50D903290FFCE100C186FB /* LyndsTeaApp.swift */,
-				4D50D905290FFCE100C186FB /* ContentView.swift */,
 				4D50D907290FFCE300C186FB /* Assets.xcassets */,
 				4D50D909290FFCE300C186FB /* Preview Content */,
 			);
@@ -65,6 +67,15 @@
 				4D50D90A290FFCE300C186FB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4D50D9112910651F00C186FB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4D50D905290FFCE100C186FB /* ContentView.swift */,
+				4D50D9122910654800C186FB /* HomeView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D50D9132910654800C186FB /* HomeView.swift in Sources */,
 				4D50D906290FFCE100C186FB /* ContentView.swift in Sources */,
 				4D50D904290FFCE100C186FB /* LyndsTeaApp.swift in Sources */,
 			);
