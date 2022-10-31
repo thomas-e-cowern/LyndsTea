@@ -16,6 +16,12 @@ struct ContentView: View {
                     Image("home")
                     Text("Home")
                 }
+            
+            CommunityView()
+                .tabItem {
+                    Image("community")
+                    Text("Community")
+                }
         }
     }
 }
