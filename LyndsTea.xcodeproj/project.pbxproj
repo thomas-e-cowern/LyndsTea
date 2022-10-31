@@ -13,6 +13,7 @@
 		4D50D90B290FFCE300C186FB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D50D90A290FFCE300C186FB /* Preview Assets.xcassets */; };
 		4D50D9132910654800C186FB /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D50D9122910654800C186FB /* HomeView.swift */; };
 		4D50D915291069F600C186FB /* CommunityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D50D914291069F600C186FB /* CommunityView.swift */; };
+		4D50D91729106B8D00C186FB /* IngredientsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D50D91629106B8D00C186FB /* IngredientsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		4D50D90A290FFCE300C186FB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4D50D9122910654800C186FB /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		4D50D914291069F600C186FB /* CommunityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityView.swift; sourceTree = "<group>"; };
+		4D50D91629106B8D00C186FB /* IngredientsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 				4D50D905290FFCE100C186FB /* ContentView.swift */,
 				4D50D9122910654800C186FB /* HomeView.swift */,
 				4D50D914291069F600C186FB /* CommunityView.swift */,
+				4D50D91629106B8D00C186FB /* IngredientsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -152,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D50D9132910654800C186FB /* HomeView.swift in Sources */,
+				4D50D91729106B8D00C186FB /* IngredientsView.swift in Sources */,
 				4D50D906290FFCE100C186FB /* ContentView.swift in Sources */,
 				4D50D915291069F600C186FB /* CommunityView.swift in Sources */,
 				4D50D904290FFCE100C186FB /* LyndsTeaApp.swift in Sources */,
