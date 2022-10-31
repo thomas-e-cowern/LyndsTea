@@ -20,7 +20,6 @@ struct HomeView: View {
                     .resizable()
                     .scaledToFit()
             }
-            .padding()
         }
     }
 }
