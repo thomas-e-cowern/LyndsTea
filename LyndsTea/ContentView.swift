@@ -16,6 +16,9 @@ struct ContentView: View {
                 Image("main")
                     .resizable()
                     .scaledToFit()
+                Image("mainImage")
+                    .resizable()
+                    .scaledToFit()
             }
             .padding()
         }
