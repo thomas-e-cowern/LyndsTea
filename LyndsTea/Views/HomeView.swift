@@ -20,6 +20,23 @@ struct HomeView: View {
                     Image("mainImage")
                         .resizable()
                         .scaledToFit()
+                        .padding(.bottom, 10)
+                    Text("Simply opening a bottle opens up a lifetime of possibilities")
+                        .font(.title)
+                        .multilineTextAlignment(.center)
+                        .padding(.bottom, 10)
+                    Text("LyndsTea elixirs allow you to reclaim your time and take your life into your own hands.")
+                        .font(.subheadline)
+                        .multilineTextAlignment(.center)
+                        .padding(.bottom, 10)
+                    Text("No job, relationship, or stressful circumstance can stop you from taking care of your health.")
+                        .font(.subheadline)
+                        .multilineTextAlignment(.center)
+                        .padding(.bottom, 10)
+                    Image("immunity")
+                        .resizable()
+                        .scaledToFit()
+                        .frame(height: 200)
                 }
             }
         }
