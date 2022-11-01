@@ -9,16 +9,18 @@ import SwiftUI
 
 struct HomeView: View {
     var body: some View {
-        ZStack {
-            Color("LTYellow")
-                .ignoresSafeArea(.all)
-            VStack {
-                Image("main")
-                    .resizable()
-                    .scaledToFit()
-                Image("mainImage")
-                    .resizable()
-                    .scaledToFit()
+        ScrollView {
+            ZStack {
+                Color("LTYellow")
+                    .ignoresSafeArea(.all)
+                VStack {
+                    Image("main")
+                        .resizable()
+                        .scaledToFit()
+                    Image("mainImage")
+                        .resizable()
+                        .scaledToFit()
+                }
             }
         }
     }
